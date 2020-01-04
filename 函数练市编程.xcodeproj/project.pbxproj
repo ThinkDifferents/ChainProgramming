@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		89020CFF23C0399E00B022BD /* UIViewTapped in Resources */ = {isa = PBXBuildFile; fileRef = 89020CFE23C0399E00B022BD /* UIViewTapped */; };
+		89020D0623C0442600B022BD /* UIView+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 89020D0123C0442600B022BD /* UIView+BlocksKit.m */; };
+		89020D0723C0442600B022BD /* HTJExtension.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 89020D0223C0442600B022BD /* HTJExtension.podspec */; };
+		89020D0823C0442600B022BD /* UIGestureRecognizer+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 89020D0323C0442600B022BD /* UIGestureRecognizer+BlocksKit.m */; };
 		890D85C31F5C11E000774AB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 890D85C21F5C11E000774AB8 /* main.m */; };
 		890D85C61F5C11E000774AB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 890D85C51F5C11E000774AB8 /* AppDelegate.m */; };
 		890D85C91F5C11E000774AB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 890D85C81F5C11E000774AB8 /* ViewController.m */; };
@@ -20,7 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		89020CFE23C0399E00B022BD /* UIViewTapped */ = {isa = PBXFileReference; lastKnownFileType = folder; path = UIViewTapped; sourceTree = "<group>"; };
+		89020D0123C0442600B022BD /* UIView+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BlocksKit.m"; sourceTree = "<group>"; };
+		89020D0223C0442600B022BD /* HTJExtension.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HTJExtension.podspec; sourceTree = "<group>"; };
+		89020D0323C0442600B022BD /* UIGestureRecognizer+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+BlocksKit.m"; sourceTree = "<group>"; };
+		89020D0423C0442600B022BD /* UIView+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BlocksKit.h"; sourceTree = "<group>"; };
+		89020D0523C0442600B022BD /* UIGestureRecognizer+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+BlocksKit.h"; sourceTree = "<group>"; };
 		890D85BE1F5C11E000774AB8 /* 函数练市编程.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "函数练市编程.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		890D85C21F5C11E000774AB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		890D85C41F5C11E000774AB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -50,6 +56,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		89020D0023C0442600B022BD /* UIViewTapped */ = {
+			isa = PBXGroup;
+			children = (
+				89020D0123C0442600B022BD /* UIView+BlocksKit.m */,
+				89020D0223C0442600B022BD /* HTJExtension.podspec */,
+				89020D0323C0442600B022BD /* UIGestureRecognizer+BlocksKit.m */,
+				89020D0423C0442600B022BD /* UIView+BlocksKit.h */,
+				89020D0523C0442600B022BD /* UIGestureRecognizer+BlocksKit.h */,
+			);
+			path = UIViewTapped;
+			sourceTree = "<group>";
+		};
 		890D85B51F5C11E000774AB8 = {
 			isa = PBXGroup;
 			children = (
@@ -69,7 +87,7 @@
 		890D85C01F5C11E000774AB8 /* 函数练市编程 */ = {
 			isa = PBXGroup;
 			children = (
-				89020CFE23C0399E00B022BD /* UIViewTapped */,
+				89020D0023C0442600B022BD /* UIViewTapped */,
 				890D85C41F5C11E000774AB8 /* AppDelegate.h */,
 				890D85C51F5C11E000774AB8 /* AppDelegate.m */,
 				890D85C71F5C11E000774AB8 /* ViewController.h */,
@@ -160,7 +178,7 @@
 				890D85D11F5C11E000774AB8 /* LaunchScreen.storyboard in Resources */,
 				890D85CE1F5C11E000774AB8 /* Assets.xcassets in Resources */,
 				890D85CC1F5C11E000774AB8 /* Main.storyboard in Resources */,
-				89020CFF23C0399E00B022BD /* UIViewTapped in Resources */,
+				89020D0723C0442600B022BD /* HTJExtension.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,9 +189,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89020D0823C0442600B022BD /* UIGestureRecognizer+BlocksKit.m in Sources */,
 				890D85C91F5C11E000774AB8 /* ViewController.m in Sources */,
 				896D96961F5CE9E500C348D6 /* NSObject+Sum.m in Sources */,
 				890D85C61F5C11E000774AB8 /* AppDelegate.m in Sources */,
+				89020D0623C0442600B022BD /* UIView+BlocksKit.m in Sources */,
 				890D85DA1F5C2AFF00774AB8 /* Person.m in Sources */,
 				896D96931F5C3C3400C348D6 /* Sum.m in Sources */,
 				890D85C31F5C11E000774AB8 /* main.m in Sources */,

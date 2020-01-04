@@ -8,6 +8,7 @@
 
 #import "UIGestureRecognizer+BlocksKit.h"
 #import "UIView+BlocksKit.h"
+#import <objc/runtime.h>
 
 @implementation UIView (BlocksKit)
 
@@ -44,7 +45,7 @@
 }
 
 - (void)sw_whenTappedView:(void (^)(UIView *))block{
-    WS(weakSelf);
+    __weak typeof(self) weakSelf = self;
     [self sw_whenTouches:1 tapped:1 handler:^{
         __strong typeof(self) self = weakSelf;
         block(self);

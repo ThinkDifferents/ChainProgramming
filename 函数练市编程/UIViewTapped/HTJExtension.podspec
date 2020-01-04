@@ -25,6 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+                    海豚家 分类 UIView 添加点击手势.........................
                    DESC
 
   spec.homepage     = "https://github.com/ThinkDifferents/ChainProgramming.git"
@@ -38,8 +39,8 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (shiwei)"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  spec.license      = "MIT"
+  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -63,7 +64,7 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # spec.platform     = :ios
+  spec.platform     = :ios, "9.0"
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -90,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "UIViewTapped", "UIViewTapped/**/*.{h,m}"
+  spec.source_files  = "UIViewTapped", "*.{h,m}"
   spec.exclude_files = "UIViewTapped/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89020CFF23C0399E00B022BD /* UIViewTapped in Resources */ = {isa = PBXBuildFile; fileRef = 89020CFE23C0399E00B022BD /* UIViewTapped */; };
 		890D85C31F5C11E000774AB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 890D85C21F5C11E000774AB8 /* main.m */; };
 		890D85C61F5C11E000774AB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 890D85C51F5C11E000774AB8 /* AppDelegate.m */; };
 		890D85C91F5C11E000774AB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 890D85C81F5C11E000774AB8 /* ViewController.m */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		89020CFE23C0399E00B022BD /* UIViewTapped */ = {isa = PBXFileReference; lastKnownFileType = folder; path = UIViewTapped; sourceTree = "<group>"; };
 		890D85BE1F5C11E000774AB8 /* 函数练市编程.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "函数练市编程.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		890D85C21F5C11E000774AB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		890D85C41F5C11E000774AB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 		890D85C01F5C11E000774AB8 /* 函数练市编程 */ = {
 			isa = PBXGroup;
 			children = (
+				89020CFE23C0399E00B022BD /* UIViewTapped */,
 				890D85C41F5C11E000774AB8 /* AppDelegate.h */,
 				890D85C51F5C11E000774AB8 /* AppDelegate.m */,
 				890D85C71F5C11E000774AB8 /* ViewController.h */,
@@ -135,6 +138,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -156,6 +160,7 @@
 				890D85D11F5C11E000774AB8 /* LaunchScreen.storyboard in Resources */,
 				890D85CE1F5C11E000774AB8 /* Assets.xcassets in Resources */,
 				890D85CC1F5C11E000774AB8 /* Main.storyboard in Resources */,
+				89020CFF23C0399E00B022BD /* UIViewTapped in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
